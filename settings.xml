@@ -137,6 +137,13 @@ under the License.
       <username>${internal.repo.username}</username>
       <password>${internal.repo.password}</password>
     </server>
+
+    <server>
+      <id>MyGet.Scratch</id>
+      <!-- only needed for private feeds or when deploying artifacts to the feed -->
+      <username>${env.MYGET_USER}</username>
+      <password>${env.MYGET_SCRATCH_API_KEY}</password>
+    </server>
   </servers>
 
   <!-- mirrors
