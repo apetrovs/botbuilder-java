@@ -142,7 +142,7 @@ under the License.
       <id>MyGet</id>
       <!-- only needed for private feeds or when deploying artifacts to the feed -->
       <username>${env.MYGET_USER}</username>
-      <password>${env.MYGET_SCRATCH_API_KEY}</password>
+      <password>${env.MYGET_API_KEY}</password>
     </server>
   </servers>
 
