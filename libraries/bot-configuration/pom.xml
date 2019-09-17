@@ -61,11 +61,19 @@
       <id>MyGet</id>
       <url>${repo.url}</url>
     </repository>
+    <repository>
+      <id>Central</id>
+      <url>${repo.url}</url>
+    </repository>
   </repositories>
 
   <distributionManagement>
     <repository>
       <id>MyGet</id>
+      <url>${repo.url}</url>
+    </repository>
+    <repository>
+      <id>Central</id>
       <url>${repo.url}</url>
     </repository>
   </distributionManagement>
