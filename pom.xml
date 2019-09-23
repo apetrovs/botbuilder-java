@@ -50,6 +50,25 @@
     </profile>
   </profiles>
 
+  <repositories>
+    <repository>
+      <id>MyGet</id>
+      <url>${repo.url}</url>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+  
   <dependencyManagement>
     <dependencies>
 
@@ -344,6 +363,10 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
+          <configuration>
+            <failOnError>false</failOnError>
+            <source>8</source>
+          </configuration>
           <executions>
             <execution>
               <id>attach-javadocs</id>

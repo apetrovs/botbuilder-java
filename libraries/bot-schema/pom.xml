@@ -71,20 +71,6 @@
     </dependency>
   </dependencies>
 
-  <repositories>
-    <repository>
-      <id>MyGet</id>
-      <url>${repo.url}</url>
-    </repository>
-  </repositories>
-
-  <distributionManagement>
-    <repository>
-      <id>MyGet</id>
-      <url>${repo.url}</url>
-    </repository>
-  </distributionManagement>
-
   <profiles>
     <profile>
       <id>build</id>
