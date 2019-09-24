@@ -107,6 +107,10 @@
             <id>MyGet</id>
             <url>${repo.url}</url>
         </repository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
