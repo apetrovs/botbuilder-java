@@ -348,11 +348,15 @@
 
   <distributionManagement>
     <repository>
-<!--      <id>ossrh</id>-->
-<!--      <url>https://oss.sonatype.org/</url>-->
-      <id>MyGet</id>
-      <url>${repo.url}</url>
+      <id>nexus.releases</id>
+      <name>Release Repository</name>
+      <url>${binary.repo.url}/maven-releases/</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus.snapshots</id>
+      <name>Snapshot Repository</name>
+      <url>${binary.repo.url}/maven-snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <modules>
