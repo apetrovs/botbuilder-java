@@ -90,14 +90,18 @@
     </repository>
   </repositories>
 
-<!--  <distributionManagement>-->
-<!--    <repository>-->
-<!--      <id>ossrh</id>-->
-<!--      &lt;!&ndash;      <url>${repo.url}</url>&ndash;&gt;-->
-<!--      <url>https://oss.sonatype.org/</url>-->
-<!--      &lt;!&ndash;      <url>https://repo.maven.apache.org/maven2</url>&ndash;&gt;-->
-<!--    </repository>-->
-<!--  </distributionManagement>-->
+  <distributionManagement>
+    <repository>
+      <id>nexus.releases</id>
+      <name>Release Repository</name>
+      <url>${binary.repo.url}/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus.snapshots</id>
+      <name>Snapshot Repository</name>
+      <url>${binary.repo.url}/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <profiles>
     <profile>
