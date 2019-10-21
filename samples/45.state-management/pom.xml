@@ -90,14 +90,14 @@
     </repository>
   </repositories>
 
-  <distributionManagement>
-    <repository>
-      <id>ossrh</id>
-      <!--      <url>${repo.url}</url>-->
-      <url>https://oss.sonatype.org/</url>
-      <!--      <url>https://repo.maven.apache.org/maven2</url>-->
-    </repository>
-  </distributionManagement>
+<!--  <distributionManagement>-->
+<!--    <repository>-->
+<!--      <id>ossrh</id>-->
+<!--      &lt;!&ndash;      <url>${repo.url}</url>&ndash;&gt;-->
+<!--      <url>https://oss.sonatype.org/</url>-->
+<!--      &lt;!&ndash;      <url>https://repo.maven.apache.org/maven2</url>&ndash;&gt;-->
+<!--    </repository>-->
+<!--  </distributionManagement>-->
 
   <profiles>
     <profile>
