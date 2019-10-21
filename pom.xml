@@ -5,7 +5,7 @@
 
   <groupId>com.microsoft.bot</groupId>
   <artifactId>bot-java</artifactId>
-  <version>4.0.0-TA-BETA-4</version>
+  <version>4.0.0-TA-BETA-5</version>
   <packaging>pom</packaging>
 
   <name>Microsoft BotBuilder Java SDK Parent</name>
