@@ -6,7 +6,7 @@
 
   <groupId>com.microsoft.bot.connector.sample</groupId>
   <artifactId>spring-echobot</artifactId>
-  <version>sample</version>
+  <version>4.0.0-TA-BETA-5</version>
   <packaging>jar</packaging>
 
   <name>${project.groupId}:${project.artifactId}</name>

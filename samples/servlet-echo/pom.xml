@@ -8,7 +8,7 @@
     <groupId>com.microsoft.bot.sample</groupId>
     <artifactId>bot-servlet-echo</artifactId>
     <packaging>war</packaging>
-    <version>1.0.0</version>
+    <version>4.0.0-TA-BETA-5</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <url>http://maven.apache.org</url>
