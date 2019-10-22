@@ -89,7 +89,7 @@
       <dependency>
         <groupId>com.microsoft.bot</groupId>
         <artifactId>bot-integration-core</artifactId>
-        <version>4.0.0-TA-BETA-5</version>
+        <version>4.0.0-TA-BETA-6</version>
       </dependency>
   </dependencies>
 

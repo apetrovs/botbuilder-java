@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.microsoft.bot</groupId>
     <artifactId>bot-java</artifactId>
-    <version>4.0.0-TA-BETA-5</version>
+    <version>4.0.0-TA-BETA-6</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
